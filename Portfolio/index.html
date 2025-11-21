@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main-card">
+    <aside class="sidebar">
+      <div class="logo">Jhanelle Torres</div>
+      <nav>
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="content">
+
+      <section id="hero" class="hero-section">
+        <h1>Hi, I’m Jhanelle Torres!</h1>
+        <h3>Frontend Developer | Web Design Enthusiast</h3>
+        <p>I’m a web developer who enjoys creating websites that are both practical and visually appealing. I focus on
+          building projects that are easy to use, reliable, and enjoyable to interact with.</p>
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="#contact" class="btn">Contact Me</a>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I’m a web developer with a passion for web designing. I got started when we had our first html lesson in
+          grade 3 and over the years, my passion for web designing only grew. Now I’ve worked on both front-end and
+          back-end development, learning how to build websites.</p>
+        <p>Outside of coding, I love making digital artworks and look up more inspiration for website designs to help me
+          improve my craft.</p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML & CSS</h3>
+            <div class="progress-bar"><span data-progress="95%"></span></div>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+            <div class="progress-bar"><span data-progress="85%"></span></div>
+          </div>
+          <div class="skill-card">
+            <h3>Digital Art</h3>
+            <div class="progress-bar"><span data-progress="90%"></span></div>
+          </div>
+          <div class="skill-card">
+            <h3>Node.js</h3>
+            <div class="progress-bar"><span data-progress="60%"></span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>To-Do List</h3>
+            <p>A simple website to add, complete, and remove tasks.</p>
+            <a href="https://github.com/JhanelleTorres/Personal-Porfolio/tree/main/Project1">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Calculator</h3>
+            <p>An easy to use calculator for basic arithmetic operations.</p>
+            <a href="https://github.com/JhanelleTorres/Personal-Porfolio/tree/main/Project2">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Sticky Notes</h3>
+            <p>A website where you can create and move sticky notes around the website.</p>
+            <a href="https://github.com/JhanelleTorres/Personal-Porfolio/tree/main/Project3">View on GitHub</a>
+          </div>
+          <div class="project-card">
+            <h3>Porfolio</h3>
+            <p>A personal website where I introduce myself.</p>
+            <a href="#">You are here!</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="email" name="email" placeholder="Your Email">
+          <input type="text" name="subject" placeholder="Subject">
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+          <div id="formFeedback"></div>
+        </form>
+      </section>
+
+      <footer>
+        <p>© 2025 Jhanelle Torres. All rights reserved.</p>
+      </footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
